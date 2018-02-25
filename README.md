@@ -10,21 +10,25 @@ yarn add auth-param-parser
 npm install auth-param-parser
 ```
 
-## Usage
-
-### Import
-
 ```js
 import { stringifyAuthParams, parseAuthParams } from "auth-param-parser";
 # or
 const { stringifyAuthParams, parseAuthParams } = require("auth-param-parser");
 ```
 
+## Usage
+
 ### Parse
 
 ```js
 parseAuthParams(`foo="bar",foofoo="barbar"`);
-//  { foo: "bar", foofoo: "barbar" }
+```
+
+```js
+{
+	foo: "bar",
+	foofoo: "barbar"
+}
 ```
 
 ## Stringify
@@ -34,5 +38,8 @@ stringifyAuthParams({
 	foo: "bar",
 	foofoo: "barbar"
 });
-// foo="bar",foofoo="barbar"
+```
+
+```
+foo="bar",foofoo="barbar"
 ```
