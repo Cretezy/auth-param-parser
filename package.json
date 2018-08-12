@@ -1,6 +1,6 @@
 {
 	"name": "auth-param-parser",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/index.js",
 	"license": "MIT",
 	"author": "Charles Crete <charles@cretezy.com>",
@@ -21,9 +21,9 @@
 	},
 	"files": ["src", "dist"],
 	"devDependencies": {
-		"@noderize/scripts": "^0.3.16"
+		"@noderize/scripts": "^0.7.5"
 	},
 	"dependencies": {
-		"@noderize/runtime": "^0.3.16"
+		"@noderize/runtime": "^0.7.5"
 	}
 }
